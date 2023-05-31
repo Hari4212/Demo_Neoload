@@ -1,0 +1,15 @@
+# Project description file
+
+project.name=Demo_1_10thJan2021
+project.version=8.7
+project.original.version=8.3
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=8.0.2
+project.is-open-test-settings-after-upload=false
+project.id=cbbbe82c-6f80-4da2-a191-a34225c2f063
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+ssh.trustUnknownHosts.MONITORS=false
+team.server.project=/Hari4212/Demo_Neoload

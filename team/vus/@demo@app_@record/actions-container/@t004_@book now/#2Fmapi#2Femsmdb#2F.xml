@@ -1,0 +1,143 @@
+<http-page executeResourcesDynamically="false" name="/mapi/emsmdb/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/98ce2216-7dba-472e-850d-7fef11946e6d.zip"
+    slaProfileEnabled="false" thinkTime="3704"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="98ce2216-7dba-472e-850d-7fef11946e6d">
+    <embedded-action>426810e7-c95e-4954-8100-8a54a5318332</embedded-action>
+    <embedded-action>6a1ddfed-c0bd-4ae7-a30b-571590adde22</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_98ce2216-7dba-472e-850d-7fef11946e6d.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/mapi-http"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/mapi/emsmdb/" path="/mapi/emsmdb/" postType="2"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/98ce2216-7dba-472e-850d-7fef11946e6d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="amemail.deloitte.com" slaProfileEnabled="false"
+    uid="426810e7-c95e-4954-8100-8a54a5318332" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[AAAAAAAAAAA=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_426810e7-c95e-4954-8100-8a54a5318332</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_426810e7-c95e-4954-8100-8a54a5318332.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="false"
+        name="MailboxId"
+        recordRawValue="0b6b78d6-d5db-4467-a5cb-692e73728374@deloitte.com"
+        separator="="
+        value="0b6b78d6-d5db-4467-a5cb-692e73728374@deloitte.com" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/mapi-http"/>
+    <header name="Accept-Auth" value="badger,Wlid1.1,Bearer"/>
+    <header name="Authorization" value="Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCIsImtpZCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCJ9.eyJhdWQiOiJodHRwczovL2FtZW1haWwuZGVsb2l0dGUuY29tLyIsImlzcyI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzM2ZGE0NWYxLWRkMmMtNGQxZi1hZjEzLTVhYmU0NmI5OTkyMS8iLCJpYXQiOjE2NDE4MTIyMTMsIm5iZiI6MTY0MTgxMjIxMywiZXhwIjoxNjQxODE3NDMyLCJhY2N0IjowLCJhY3IiOiIxIiwiYWlvIjoiQVZRQXEvOFRBQUFBeWpDSG5xSGZEUjBvcUpEYjZtM3dGS3E2SVRQMlY0YmF5VG5SazAzSExTNVBJNVUxQ2JFWmpUaVZUd2E0WENIcUZ6QWNtUStLNVVWL3VoYzlsRitxdkFTWE9VRkxNaHZaN1hPK0NjTk1Ycmc9IiwiYW1yIjpbInB3ZCIsInJzYSJdLCJhcHBfZGlzcGxheW5hbWUiOiJNaWNyb3NvZnQgT2ZmaWNlIiwiYXBwaWQiOiJkMzU5MGVkNi01MmIzLTQxMDItYWVmZi1hYWQyMjkyYWIwMWMiLCJhcHBpZGFjciI6IjAiLCJjbmYiOnsidGJoIjoiNmM3QkZUM3N0ZHdrUkpWaW5vL2VuWEVINVNGbVFrNUJPcm1zc0MzbHMxWT0ifSwiY29udHJvbHMiOlsiYXBwX3JlcyJdLCJjb250cm9sc19hdWRzIjpbIjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCJdLCJkZXZpY2VpZCI6Ijg5ZDVlNmZlLTY0ZWUtNDg1MC1iNTNmLWUyZDljNTcwNzY4NSIsImVfZXhwIjoyNjQxMTgsImVuZnBvbGlkcyI6W10sImZhbWlseV9uYW1lIjoiUmFnaHVuYXRoIiwiZ2l2ZW5fbmFtZSI6IkhhcmlzaCIsImlwYWRkciI6IjE1Ny41MC41MS4yMDkiLCJuYW1lIjoiUmFnaHVuYXRoLCBIYXJpc2giLCJvaWQiOiI1NzI4ZjdhOC1kMzQ1LTQ1ZmItOGM0Zi0zZDhhZTU4ODFjZjAiLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMjM4NDQ3Mjc2LTEwNDA4NjE5MjMtMTg1MDk1Mjc4OC0zMzI1ODkwIiwicHVpZCI6IjEwMDMyMDAxOUVFNzNGNjciLCJyaCI6IjAuQVNZQThVWGFOaXpkSDAydkUxcS1Scm1aSWRZT1dkT3pVZ0pCcnYtcTBpa3FzQndtQUVNLiIsInNjcCI6IkJyYW5mb3JkLUludGVybmFsLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlIENhbGVuZGFycy5SZWFkV3JpdGUuU2hhcmVkIENvbnRhY3RzLlJlYWRXcml0ZSBDb250YWN0cy5SZWFkV3JpdGUuU2hhcmVkIEVBUy5BY2Nlc3NBc1VzZXIuQWxsIEVvcFBvbGljeVN5bmMuQWNjZXNzQXNVc2VyLkFsbCBFb3BQc29yV3MuQWNjZXNzQXNVc2VyLkFsbCBFV1MuQWNjZXNzQXNVc2VyLkFsbCBGaWxlcy5SZWFkV3JpdGUuQWxsIEZpbGVzLlJlYWRXcml0ZS5TaGFyZWQgR3JvdXAuUmVhZFdyaXRlLkFsbCBNYWlsLlJlYWRXcml0ZSBNYWlsLlJlYWRXcml0ZS5TaGFyZWQgTWFpbC5TZW5kIE1haWwuU2VuZC5TaGFyZWQgTWFpbGJveFNldHRpbmdzLlJlYWRXcml0ZSBNYXBpSHR0cC5BY2Nlc3NBc1VzZXIuQWxsIE1lc3NhZ2VSZWFjdGlvbi1JbnRlcm5hbC5VcGRhdGUgTm90ZXMuUmVhZCBOb3Rlcy5SZWFkV3JpdGUgT2FiLkFjY2Vzc0FzVXNlci5BbGwgT3V0bG9va1NlcnZpY2UuQWNjZXNzQXNVc2VyLkFsbCBPV0EuQWNjZXNzQXNVc2VyLkFsbCBQZW9wbGUuUmVhZCBQZW9wbGUuUmVhZFdyaXRlIFBsYWNlLlJlYWQuQWxsIFByaXZpbGVnZS5FTFQgU2lnbmFscy5SZWFkIFNpZ25hbHMuUmVhZFdyaXRlIFN1YnN0cmF0ZVNlYXJjaC1JbnRlcm5hbC5SZWFkV3JpdGUgVGFncy5SZWFkV3JpdGUgVGFza3MuUmVhZFdyaXRlIFRhc2tzLlJlYWRXcml0ZS5TaGFyZWQgVG9kby1JbnRlcm5hbC5SZWFkV3JpdGUgVXNlci5SZWFkQmFzaWMgVXNlci5SZWFkQmFzaWMuQWxsIHVzZXJfaW1wZXJzb25hdGlvbiBVc2VyLUludGVybmFsLlJlYWRXcml0ZSIsInNpZCI6IjI1OWU3Y2Y5LTQ1ZDEtNGE4OS1iY2Q3LTNmOWYwM2NiMzBlOSIsInNpZ25pbl9zdGF0ZSI6WyJkdmNfbW5nZCIsImR2Y19kbWpkIl0sInN1YiI6Im44RDB1dmtPNnBsWUZoVGdZTjJiTUpkSGYwUUQtaFdya25FcktMN0haS0EiLCJ0aWQiOiIzNmRhNDVmMS1kZDJjLTRkMWYtYWYxMy01YWJlNDZiOTk5MjEiLCJ1bmlxdWVfbmFtZSI6ImhhcmFnaHVuYXRoQGRlbG9pdHRlLmNvbSIsInVwbiI6ImhhcmFnaHVuYXRoQGRlbG9pdHRlLmNvbSIsInV0aSI6Ikk2bzBkREZScDAtN25xMTNjQXFwQWciLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfY2MiOlsiQ1AxIl19.Bv_HUya5NaQ5fuKOIMODosqvjuy2O2rRB8UBe4ynMbN-6WlCqnPNX1tccpFTGgopFxASoHa-Q1hHykyOJHD7RmatlpGu2a5qBKbLNkSypHy2z_ywq87dwIue7AABChkjyZRhg2CKbhssBOk5Ljs2lZ8yfOjHmEWf0JUQmEyodzKvU_RAxWeCkfNMFZkxx8q4M0WJs0nBz-CgCi3MzX9uI1yZuvDQXompWi-_sahXG099EQrZcUOu6wOKwtwUoL9Itp0proUN7PvY_A8sLcEFed-LE7lCDk91KSqGt9o66EaUlO3IGUr_cf8J9Af1yL2xmF6XLpcVtFF6upI6phzaJg"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Client-Request-Id" value="{1248E500-AFFE-4D45-8A13-9BA8402852EA}"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/mapi-http"/>
+    <header name="Cookie" value="MapiContext=MAPIAAAAAOermsqYoJXYmqqfr5+8jr6MvpOjkr+Ovp6umqCSpZ+rn8Xm1+TQ49rt2eDV4R0aAAAAAAAA;MapiRouting=UlVNOmMxNGEyNmFhLWM2ZTYtNDYzNi1hODFhLWVmNWM0OWJmMDY5YjrMmMHJMNTZCA==;MapiSequence=58-0qBteg=="/>
+    <header name="Host" value="amemail.deloitte.com"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="User-Agent" value="Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.13801; Pro)"/>
+    <header name="X-Accept" value="application/json"/>
+    <header name="X-ClientApplication" value="Outlook/16.0.13801.21050"/>
+    <header name="X-ClientInfo" value="{ACB677DB-A90F-4FC8-A7D2-D29562F974CB}:68200021"/>
+    <header name="X-FeatureVersion" value="1"/>
+    <header name="X-MS-CookieUri-Requested" value="t"/>
+    <header name="X-MS-Negotiate" value="Server"/>
+    <header name="X-RequestId" value="{ACB408B8-8075-4D19-A59B-0605D6507914}:73"/>
+    <header name="X-RequestType" value="NotificationWait"/>
+    <header name="X-User-Identity" value="haraghunath@deloitte.com"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: private&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: application/mapi-http&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+request-id: 975896e0-170a-f9be-377c-aa507031a194&#xd;
+X-CalculatedBETarget: BL1PR85MB0500.NAMPRD85.PROD.OUTLOOK.COM&#xd;
+X-BackEndHttpStatus: 200&#xd;
+Set-Cookie: MapiContext=MAPIAAAAAOermsqYoJXYmqqfr5+8jr6MvpOjkr+Ovp6umqCSpZ+rn8Xm1+TQ49rt2eDV4R0aAAAAAAAA; path=/mapi/emsmdb; secure; HttpOnly&#xd;
+X-ServerApplication: Exchange/15.20.4867.012&#xd;
+X-RequestId: {ACB408B8-8075-4D19-A59B-0605D6507914}:73&#xd;
+X-ClientInfo: {ACB677DB-A90F-4FC8-A7D2-D29562F974CB}:68200021&#xd;
+X-RequestType: NotificationWait&#xd;
+x-ms-appId: d3590ed6-52b3-4102-aeff-aad2292ab01c&#xd;
+X-PendingPeriod: 30000&#xd;
+X-ExpirationInfo: 900000&#xd;
+X-ResponseCode: 0&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+X-DiagInfo: BL1PR85MB0500&#xd;
+X-BEServer: BL1PR85MB0500&#xd;
+X-Proxy-RoutingCorrectness: 1&#xd;
+X-Proxy-BackendServerStatus: 200&#xd;
+X-FirstHopCafeEFZ: SJC&#xd;
+X-Powered-By: ASP.NET&#xd;
+X-FEServer: BYAPR85CA0004&#xd;
+Date: Mon, 10 Jan 2022 12:10:03 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/mapi-http"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/mapi/emsmdb/" path="/mapi/emsmdb/" postType="2"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/98ce2216-7dba-472e-850d-7fef11946e6d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="amemail.deloitte.com" slaProfileEnabled="false"
+    uid="6a1ddfed-c0bd-4ae7-a30b-571590adde22" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[AAAAAAAAAAA=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_6a1ddfed-c0bd-4ae7-a30b-571590adde22</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6a1ddfed-c0bd-4ae7-a30b-571590adde22.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="false"
+        name="MailboxId"
+        recordRawValue="0b6b78d6-d5db-4467-a5cb-692e73728374@deloitte.com"
+        separator="="
+        value="0b6b78d6-d5db-4467-a5cb-692e73728374@deloitte.com" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/mapi-http"/>
+    <header name="Accept-Auth" value="badger,Wlid1.1,Bearer"/>
+    <header name="Authorization" value="Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCIsImtpZCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCJ9.eyJhdWQiOiJodHRwczovL2FtZW1haWwuZGVsb2l0dGUuY29tLyIsImlzcyI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzM2ZGE0NWYxLWRkMmMtNGQxZi1hZjEzLTVhYmU0NmI5OTkyMS8iLCJpYXQiOjE2NDE4MTIyMTMsIm5iZiI6MTY0MTgxMjIxMywiZXhwIjoxNjQxODE3NDMyLCJhY2N0IjowLCJhY3IiOiIxIiwiYWlvIjoiQVZRQXEvOFRBQUFBeWpDSG5xSGZEUjBvcUpEYjZtM3dGS3E2SVRQMlY0YmF5VG5SazAzSExTNVBJNVUxQ2JFWmpUaVZUd2E0WENIcUZ6QWNtUStLNVVWL3VoYzlsRitxdkFTWE9VRkxNaHZaN1hPK0NjTk1Ycmc9IiwiYW1yIjpbInB3ZCIsInJzYSJdLCJhcHBfZGlzcGxheW5hbWUiOiJNaWNyb3NvZnQgT2ZmaWNlIiwiYXBwaWQiOiJkMzU5MGVkNi01MmIzLTQxMDItYWVmZi1hYWQyMjkyYWIwMWMiLCJhcHBpZGFjciI6IjAiLCJjbmYiOnsidGJoIjoiNmM3QkZUM3N0ZHdrUkpWaW5vL2VuWEVINVNGbVFrNUJPcm1zc0MzbHMxWT0ifSwiY29udHJvbHMiOlsiYXBwX3JlcyJdLCJjb250cm9sc19hdWRzIjpbIjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCJdLCJkZXZpY2VpZCI6Ijg5ZDVlNmZlLTY0ZWUtNDg1MC1iNTNmLWUyZDljNTcwNzY4NSIsImVfZXhwIjoyNjQxMTgsImVuZnBvbGlkcyI6W10sImZhbWlseV9uYW1lIjoiUmFnaHVuYXRoIiwiZ2l2ZW5fbmFtZSI6IkhhcmlzaCIsImlwYWRkciI6IjE1Ny41MC41MS4yMDkiLCJuYW1lIjoiUmFnaHVuYXRoLCBIYXJpc2giLCJvaWQiOiI1NzI4ZjdhOC1kMzQ1LTQ1ZmItOGM0Zi0zZDhhZTU4ODFjZjAiLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtMjM4NDQ3Mjc2LTEwNDA4NjE5MjMtMTg1MDk1Mjc4OC0zMzI1ODkwIiwicHVpZCI6IjEwMDMyMDAxOUVFNzNGNjciLCJyaCI6IjAuQVNZQThVWGFOaXpkSDAydkUxcS1Scm1aSWRZT1dkT3pVZ0pCcnYtcTBpa3FzQndtQUVNLiIsInNjcCI6IkJyYW5mb3JkLUludGVybmFsLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlIENhbGVuZGFycy5SZWFkV3JpdGUuU2hhcmVkIENvbnRhY3RzLlJlYWRXcml0ZSBDb250YWN0cy5SZWFkV3JpdGUuU2hhcmVkIEVBUy5BY2Nlc3NBc1VzZXIuQWxsIEVvcFBvbGljeVN5bmMuQWNjZXNzQXNVc2VyLkFsbCBFb3BQc29yV3MuQWNjZXNzQXNVc2VyLkFsbCBFV1MuQWNjZXNzQXNVc2VyLkFsbCBGaWxlcy5SZWFkV3JpdGUuQWxsIEZpbGVzLlJlYWRXcml0ZS5TaGFyZWQgR3JvdXAuUmVhZFdyaXRlLkFsbCBNYWlsLlJlYWRXcml0ZSBNYWlsLlJlYWRXcml0ZS5TaGFyZWQgTWFpbC5TZW5kIE1haWwuU2VuZC5TaGFyZWQgTWFpbGJveFNldHRpbmdzLlJlYWRXcml0ZSBNYXBpSHR0cC5BY2Nlc3NBc1VzZXIuQWxsIE1lc3NhZ2VSZWFjdGlvbi1JbnRlcm5hbC5VcGRhdGUgTm90ZXMuUmVhZCBOb3Rlcy5SZWFkV3JpdGUgT2FiLkFjY2Vzc0FzVXNlci5BbGwgT3V0bG9va1NlcnZpY2UuQWNjZXNzQXNVc2VyLkFsbCBPV0EuQWNjZXNzQXNVc2VyLkFsbCBQZW9wbGUuUmVhZCBQZW9wbGUuUmVhZFdyaXRlIFBsYWNlLlJlYWQuQWxsIFByaXZpbGVnZS5FTFQgU2lnbmFscy5SZWFkIFNpZ25hbHMuUmVhZFdyaXRlIFN1YnN0cmF0ZVNlYXJjaC1JbnRlcm5hbC5SZWFkV3JpdGUgVGFncy5SZWFkV3JpdGUgVGFza3MuUmVhZFdyaXRlIFRhc2tzLlJlYWRXcml0ZS5TaGFyZWQgVG9kby1JbnRlcm5hbC5SZWFkV3JpdGUgVXNlci5SZWFkQmFzaWMgVXNlci5SZWFkQmFzaWMuQWxsIHVzZXJfaW1wZXJzb25hdGlvbiBVc2VyLUludGVybmFsLlJlYWRXcml0ZSIsInNpZCI6IjI1OWU3Y2Y5LTQ1ZDEtNGE4OS1iY2Q3LTNmOWYwM2NiMzBlOSIsInNpZ25pbl9zdGF0ZSI6WyJkdmNfbW5nZCIsImR2Y19kbWpkIl0sInN1YiI6Im44RDB1dmtPNnBsWUZoVGdZTjJiTUpkSGYwUUQtaFdya25FcktMN0haS0EiLCJ0aWQiOiIzNmRhNDVmMS1kZDJjLTRkMWYtYWYxMy01YWJlNDZiOTk5MjEiLCJ1bmlxdWVfbmFtZSI6ImhhcmFnaHVuYXRoQGRlbG9pdHRlLmNvbSIsInVwbiI6ImhhcmFnaHVuYXRoQGRlbG9pdHRlLmNvbSIsInV0aSI6Ikk2bzBkREZScDAtN25xMTNjQXFwQWciLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfY2MiOlsiQ1AxIl19.Bv_HUya5NaQ5fuKOIMODosqvjuy2O2rRB8UBe4ynMbN-6WlCqnPNX1tccpFTGgopFxASoHa-Q1hHykyOJHD7RmatlpGu2a5qBKbLNkSypHy2z_ywq87dwIue7AABChkjyZRhg2CKbhssBOk5Ljs2lZ8yfOjHmEWf0JUQmEyodzKvU_RAxWeCkfNMFZkxx8q4M0WJs0nBz-CgCi3MzX9uI1yZuvDQXompWi-_sahXG099EQrZcUOu6wOKwtwUoL9Itp0proUN7PvY_A8sLcEFed-LE7lCDk91KSqGt9o66EaUlO3IGUr_cf8J9Af1yL2xmF6XLpcVtFF6upI6phzaJg"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Client-Request-Id" value="{39C31A58-6C48-4FEB-A035-D41E11FF33CD}"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Content-Type" value="application/mapi-http"/>
+    <header name="Cookie" value="MapiContext=MAPIAAAAAOermsqYoJXYmqqfr5+8jr6MvpOjkr+Ovp6umqCSpZ+rn8Xm1+TQ49rt2eDV4RwDAAAAAAAA;MapiRouting=UlVNOmMxNGEyNmFhLWM2ZTYtNDYzNi1hODFhLWVmNWM0OWJmMDY5YjpSzY9yMNTZCA==;MapiSequence=200-ThPoLg=="/>
+    <header name="Host" value="amemail.deloitte.com"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="User-Agent" value="Microsoft Office/16.0 (Windows NT 10.0; Microsoft Outlook 16.0.13801; Pro)"/>
+    <header name="X-Accept" value="application/json"/>
+    <header name="X-ClientApplication" value="Outlook/16.0.13801.21050"/>
+    <header name="X-ClientInfo" value="{ACB677DB-A90F-4FC8-A7D2-D29562F974CB}:68200023"/>
+    <header name="X-FeatureVersion" value="1"/>
+    <header name="X-MS-CookieUri-Requested" value="t"/>
+    <header name="X-MS-Negotiate" value="Server"/>
+    <header name="X-RequestId" value="{0D3E2FB9-4C96-4B09-AA38-8033D2D4818B}:365"/>
+    <header name="X-RequestType" value="NotificationWait"/>
+    <header name="X-User-Identity" value="haraghunath@deloitte.com"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: private&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: application/mapi-http&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+request-id: 22826fdb-5c7d-d03f-40ca-601730be8792&#xd;
+X-CalculatedBETarget: BL1PR85MB0500.NAMPRD85.PROD.OUTLOOK.COM&#xd;
+X-BackEndHttpStatus: 200&#xd;
+Set-Cookie: MapiContext=MAPIAAAAAOermsqYoJXYmqqfr5+8jr6MvpOjkr+Ovp6umqCSpZ+rn8Xm1+TQ49rt2eDV4RwDAAAAAAAA; path=/mapi/emsmdb; secure; HttpOnly&#xd;
+X-ServerApplication: Exchange/15.20.4867.012&#xd;
+X-RequestId: {0D3E2FB9-4C96-4B09-AA38-8033D2D4818B}:365&#xd;
+X-ClientInfo: {ACB677DB-A90F-4FC8-A7D2-D29562F974CB}:68200023&#xd;
+X-RequestType: NotificationWait&#xd;
+X-RUM-Validated: 1&#xd;
+x-ms-appId: d3590ed6-52b3-4102-aeff-aad2292ab01c&#xd;
+X-PendingPeriod: 30000&#xd;
+X-ExpirationInfo: 900000&#xd;
+X-ResponseCode: 0&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+X-DiagInfo: BL1PR85MB0500&#xd;
+X-BEServer: BL1PR85MB0500&#xd;
+X-Proxy-RoutingCorrectness: 1&#xd;
+X-Proxy-BackendServerStatus: 200&#xd;
+X-FirstHopCafeEFZ: SJC&#xd;
+X-Powered-By: ASP.NET&#xd;
+X-FEServer: BYAPR85CA0001&#xd;
+Date: Mon, 10 Jan 2022 12:10:03 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

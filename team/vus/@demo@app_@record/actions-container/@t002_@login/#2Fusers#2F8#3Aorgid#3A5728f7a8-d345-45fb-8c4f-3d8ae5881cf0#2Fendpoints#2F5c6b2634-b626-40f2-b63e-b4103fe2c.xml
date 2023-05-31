@@ -1,0 +1,59 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/users/8:orgid:5728f7a8-d345-45fb-8c4f-3d8ae5881cf0/endpoints/5c6b2634-b626-40f2-b63e-b4103fe2c"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/ed3c1ff1-a796-4717-9d0d-d8f4ea5af2d6.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ed3c1ff1-a796-4717-9d0d-d8f4ea5af2d6">
+    <embedded-action>ea483262-5c9d-4ab9-8b9b-3f65ad26f4c6</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_ed3c1ff1-a796-4717-9d0d-d8f4ea5af2d6.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/users/8:orgid:5728f7a8-d345-45fb-8c4f-3d8ae5881cf0/endpoints/5c6b2634-b626-40f2-b63e-b4103fe2cf54/events/poll"
+    path="/users/8:orgid:5728f7a8-d345-45fb-8c4f-3d8ae5881cf0/endpoints/5c6b2634-b626-40f2-b63e-b4103fe2cf54/events/poll"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/ed3c1ff1-a796-4717-9d0d-d8f4ea5af2d6.zip"
+    recordedResponseCode="200" responseSize="217"
+    serverUid="southcentralus-prod-2.notifications.teams.microsoft.com"
+    slaProfileEnabled="false" uid="ea483262-5c9d-4ab9-8b9b-3f65ad26f4c6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ea483262-5c9d-4ab9-8b9b-3f65ad26f4c6</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ea483262-5c9d-4ab9-8b9b-3f65ad26f4c6.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US"/>
+    <header name="authentication" value="skypetoken=eyJhbGciOiJSUzI1NiIsImtpZCI6IjEwMyIsIng1dCI6Ikc5WVVVTFMwdlpLQTJUNjFGM1dzYWdCdmFMbyIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDE3OTE2ODMsImV4cCI6MTY0MTg3ODA3Nywic2t5cGVpZCI6Im9yZ2lkOjU3MjhmN2E4LWQzNDUtNDVmYi04YzRmLTNkOGFlNTg4MWNmMCIsInNjcCI6NzgwLCJjc2kiOiIxNjQxNzkxMzc3IiwidGlkIjoiMzZkYTQ1ZjEtZGQyYy00ZDFmLWFmMTMtNWFiZTQ2Yjk5OTIxIiwicmduIjoiZW1lYSJ9.iuW_gP4Ww8A8PY042JI_KR6wXOfKLnSjPPii5NOvb7XoAOAOAPlpQ8PQH0QM35E28wox_6CyVzsus5LJBXSnJimto4O8KJNoh69qUv0j4QhcktmQsQjqNXyYInKihKPkm_s_xSqn1kqSA81jSE0rRICnqVAg3BZFWoCJuTfMDMFdxYCZcekhZxqzGSQ_vX16RvEq8sHMrD-TQo6qVvXRiFyNEvPsRexrETF5Be1vTcXwgatmHWCW6O3AR41sfYMxG4tY9mBBFEyicKSzDTb6QZtzdR6HM0RH9fJ4yotixFBIh-RWut7td27R_HtJoYj8_nFfJgPKKXd6nQgnAjM4-g"/>
+    <header name="behavioroverride" value="redirectAs404"/>
+    <header name="clientinfo" value="os=windows; osVer=NT 10.0; proc=x86; lcid=en-US; deviceType=1; country=US; clientName=skypeteams; clientVer=1.0.0.2021121106; utcOffset=+05:30; timezone=Asia/Calcutta"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="southcentralus-prod-2.notifications.teams.microsoft.com"/>
+    <header name="Origin" value="https://teams.microsoft.com"/>
+    <header name="Referer" value="https://teams.microsoft.com/statics/hashed/precompiled-shared-worker-9b39bc9d9a084828.js"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Teams/1.4.00.32771 Chrome/85.0.4183.121 Electron/10.4.7 Safari/537.36"/>
+    <header name="x-ms-query-params" value="cursor=1641813706&amp;epfs=srt&amp;sca=4&amp;activeTimeout=135"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store,no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Vary: Origin&#xd;
+Server: Microsoft-HTTPAPI/2.0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Access-Control-Expose-Headers: X-Content-Type-Options,Cache-Control,Pragma,ContextId,Content-Length,Connection,MS-CV,Date&#xd;
+x-ms-environment: South Central US-prod-2,_cnsVMSS41_13&#xd;
+MS-CV: GH+U5sCB5kWkutvZK6xIjQ.0&#xd;
+x-ms-latency: 40018.2643&#xd;
+Timing-Allow-Origin: *&#xd;
+Access-Control-Allow-Origin: https://teams.microsoft.com&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Date: Mon, 10 Jan 2022 12:09:46 GMT&#xd;
+Content-Length: 217</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

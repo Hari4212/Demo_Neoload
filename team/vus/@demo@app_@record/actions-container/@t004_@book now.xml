@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="T004_Book now" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="baa7c896-a7a5-4df8-93e2-548b39c18725" weightsEnabled="false">
+    <weighted-embedded-action uid="5203e56c-8b23-4fd7-87f1-4d9ff98e39ee"/>
+    <weighted-embedded-action uid="b29e8b48-0bcc-4f51-a15b-d4b1158b0da3"/>
+    <weighted-embedded-action uid="e2edb0f6-6097-4acb-9f39-001c309b2e2b"/>
+    <weighted-embedded-action uid="8261076f-3883-4dad-a4f2-1e2db0e0117e"/>
+    <weighted-embedded-action uid="845522f7-e454-49e8-9aca-11817f85ad88"/>
+    <weighted-embedded-action uid="98ce2216-7dba-472e-850d-7fef11946e6d"/>
+</basic-logical-action-container>

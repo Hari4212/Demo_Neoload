@@ -1,0 +1,42 @@
+<http-page executeResourcesDynamically="false"
+    name="/vdesk/timeoutagent-i.php" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/845522f7-e454-49e8-9aca-11817f85ad88.zip"
+    slaProfileEnabled="false" thinkTime="5453"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="845522f7-e454-49e8-9aca-11817f85ad88">
+    <embedded-action>bd9ce0b4-6040-4b9f-8d56-7c6c25673ace</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_845522f7-e454-49e8-9aca-11817f85ad88.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/vdesk/timeoutagent-i.php"
+    path="/vdesk/timeoutagent-i.php" postType="2"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/845522f7-e454-49e8-9aca-11817f85ad88.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="rue.us.remotednet.deloitte.com" slaProfileEnabled="false"
+    uid="bd9ce0b4-6040-4b9f-8d56-7c6c25673ace" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bd9ce0b4-6040-4b9f-8d56-7c6c25673ace</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bd9ce0b4-6040-4b9f-8d56-7c6c25673ace.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="img"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="timeout"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="LastMRH_Session=b1727126; MRHSession=b281889431a83d86131619fab1727126; F5_ST=1z1z1z1641805371z72000; LastMRH_Session=b1727126; MRHSession=b281889431a83d86131619fab1727126; F5_ST=1z1z1z1641805371z72000; TIN=14397000"/>
+    <header name="Host" value="rue.us.remotednet.deloitte.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; USPortal; rv:11.0) like Gecko EdgeClient/7213.2021.0527.0649"/>
+    <responseHeaders>HTTP/1.0 200 OK&#xd;
+Set-Cookie: TIN=14397000; path=/;secure&#xd;
+Server: BigIP&#xd;
+Cache-Control: no-cache&#xd;
+Pragma: no-cache&#xd;
+Connection: Close&#xd;
+Content-Length: 0&#xd;
+X-Frame-Options: DENY</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

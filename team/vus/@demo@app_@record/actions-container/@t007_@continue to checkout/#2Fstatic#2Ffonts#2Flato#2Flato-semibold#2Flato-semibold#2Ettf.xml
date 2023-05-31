@@ -1,0 +1,55 @@
+<http-page executeResourcesDynamically="false"
+    name="/static/fonts/lato/lato-semibold/lato-semibold.ttf"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/9dfc183e-8120-45d3-804e-f96afeb6d53c.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9dfc183e-8120-45d3-804e-f96afeb6d53c">
+    <embedded-action>5d96a596-676f-47da-8203-d25beb1682fa</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_350aaa13-aea1-4fd7-9e28-18ab8342a96e.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;9ed2a18e21bc540698a4655ffb50aa62&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 21 Jun 2021 11:04:45 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/static/fonts/lato/lato-semibold/lato-semibold.ttf"
+    path="/static/fonts/lato/lato-semibold/lato-semibold.ttf"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/9dfc183e-8120-45d3-804e-f96afeb6d53c.zip"
+    recordedResponseCode="404" responseSize="4445"
+    serverUid="travel.testsigma.com" slaProfileEnabled="false"
+    uid="5d96a596-676f-47da-8203-d25beb1682fa" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_840c36e7-51df-4cd4-a4e1-9f37f99fec1f.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_840c36e7-51df-4cd4-a4e1-9f37f99fec1f.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://travel.testsigma.com/static/css/fil1.css"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;96&quot;, &quot;Google Chrome&quot;;v=&quot;96&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="origin" value="https://travel.testsigma.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 404&#xd;
+content-type: text/html&#xd;
+content-length: 4445&#xd;
+last-modified: Mon, 21 Jun 2021 11:04:45 GMT&#xd;
+etag: "9ed2a18e21bc540698a4655ffb50aa62"&#xd;
+x-amz-error-code: NoSuchKey&#xd;
+x-amz-error-message: The specified key does not exist.&#xd;
+x-amz-error-detail-key: static/fonts/lato/lato-semibold/lato-semibold.ttf&#xd;
+date: Mon, 10 Jan 2022 12:11:24 GMT&#xd;
+server: AmazonS3&#xd;
+x-cache: Error from cloudfront&#xd;
+via: 1.1 48e542cadf2952c7903de33c27e5c1f8.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: ATL51-C1&#xd;
+x-amz-cf-id: bmyeHxiL24paQEQWX6T5_4mWYiJqjegyVH6bq_bWY7opa0kSkX-qdg==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

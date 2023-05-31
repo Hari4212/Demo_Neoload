@@ -1,0 +1,28 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="T007_Continue to checkout" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="a1fa3e04-8d52-4fe1-87fb-354059945a25" weightsEnabled="false">
+    <weighted-embedded-action uid="3531df99-c261-4c67-b6a3-ce81fa6332d6"/>
+    <weighted-embedded-action uid="1ad5ec79-7d45-4f8f-abcf-05a8e67a1e9a"/>
+    <weighted-embedded-action uid="7daea38f-55a5-4c8c-88b8-dbaeec59df4d"/>
+    <weighted-embedded-action uid="7059be2e-310d-40de-a1d1-d904bf8b26ce"/>
+    <weighted-embedded-action uid="b48bf877-9201-4e16-a205-c74905003427"/>
+    <weighted-embedded-action uid="8117f0d3-3029-4c0f-ac27-e02a4b7119ba"/>
+    <weighted-embedded-action uid="09a7f2b2-acd5-44e7-b25a-c35f6376bad6"/>
+    <weighted-embedded-action uid="e4434642-3687-4ab0-9d14-033d2c1fc1bf"/>
+    <weighted-embedded-action uid="b106fe11-a0e7-4e23-a3da-5793aa97caf7"/>
+    <weighted-embedded-action uid="c0277db6-e4f8-4793-b4b3-f603d0a31a26"/>
+    <weighted-embedded-action uid="13e4c757-898d-443a-a94a-93565834aaf7"/>
+    <weighted-embedded-action uid="9dfc183e-8120-45d3-804e-f96afeb6d53c"/>
+    <weighted-embedded-action uid="31f9a987-5486-458d-b75e-4871017dc72f"/>
+    <weighted-embedded-action uid="f1cf4765-7cf9-4890-a023-b213e23853df"/>
+    <weighted-embedded-action uid="71f5f320-2e16-4b1e-a5d7-4ff2588855ef"/>
+    <weighted-embedded-action uid="156b66be-3f27-47dd-80a2-473bb7f9b984"/>
+    <weighted-embedded-action uid="3445fd87-1ddb-4761-ac5d-8ef957488225"/>
+    <weighted-embedded-action uid="041f7eb8-05df-4356-bf6a-0e9e43156616"/>
+    <weighted-embedded-action uid="ccc407f2-d766-4284-a574-14c014cede44"/>
+    <weighted-embedded-action uid="c6d8f091-2f8f-4e86-94e4-494e377eb17c"/>
+    <weighted-embedded-action uid="4cb669f4-d549-47ec-ab7f-90ef4499e3de"/>
+    <weighted-embedded-action uid="325b9871-d294-4d49-84c6-40b18fb952f2"/>
+    <weighted-embedded-action uid="1ffac072-2087-46eb-818b-1e3c218f4716"/>
+</basic-logical-action-container>

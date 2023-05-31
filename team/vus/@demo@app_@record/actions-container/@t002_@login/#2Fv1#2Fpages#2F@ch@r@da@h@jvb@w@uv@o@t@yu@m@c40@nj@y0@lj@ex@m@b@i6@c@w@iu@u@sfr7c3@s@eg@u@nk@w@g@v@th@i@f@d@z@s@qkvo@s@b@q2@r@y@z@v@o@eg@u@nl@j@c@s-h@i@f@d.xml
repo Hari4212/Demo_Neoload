@@ -1,0 +1,52 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/v1/pages/ChRDaHJvbWUvOTYuMC40NjY0LjExMBI6CWIuUSfr7c3SEgUNkWGVThIFDZSQkvoSBQ2RYZVOEgUNlJCS-hIFD"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/8894cb70-487e-4a58-8bea-94f91fec1985.zip"
+    slaProfileEnabled="false" thinkTime="2499"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8894cb70-487e-4a58-8bea-94f91fec1985">
+    <embedded-action>eaaa9f38-cdcd-4ad5-b054-d52f740d3f2d</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/x-protobuf"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/v1/pages/ChRDaHJvbWUvOTYuMC40NjY0LjExMBI6CWIuUSfr7c3SEgUNkWGVThIFDZSQkvoSBQ2RYZVOEgUNlJCS-hIFDQLKgGUSBQ26bh4lEgUNRVZ2Vw=="
+    path="/v1/pages/ChRDaHJvbWUvOTYuMC40NjY0LjExMBI6CWIuUSfr7c3SEgUNkWGVThIFDZSQkvoSBQ2RYZVOEgUNlJCS-hIFDQLKgGUSBQ26bh4lEgUNRVZ2Vw=="
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/8894cb70-487e-4a58-8bea-94f91fec1985.zip"
+    recordedResponseCode="429" responseSize="0"
+    serverUid="content-autofill.googleapis.com"
+    slaProfileEnabled="false" uid="eaaa9f38-cdcd-4ad5-b054-d52f740d3f2d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_eaaa9f38-cdcd-4ad5-b054-d52f740d3f2d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_eaaa9f38-cdcd-4ad5-b054-d52f740d3f2d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="alt"
+        recordRawValue="proto" separator="=" value="proto" valueMode="USE_VALUE"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="content-autofill.googleapis.com"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="none"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"/>
+    <header name="X-Client-Data" value="CJe2yQEIpLbJAQjEtskBCIqSygEIqZ3KAQiC+soBCOvyywEInvnLAQjX/MsBCLT/ywEI54TMAQjLicwBCK2OzAEI0o/MAQjakMwBCMqSzAEYjJ7LAQ=="/>
+    <header name="X-Goog-Api-Key" value="AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"/>
+    <header name="X-Goog-Encode-Response-If-Executable" value="base64"/>
+    <responseHeaders>HTTP/1.1 429 Too Many Requests&#xd;
+Vary: Origin&#xd;
+Vary: X-Origin&#xd;
+Vary: Referer&#xd;
+Content-Type: application/x-protobuf&#xd;
+Content-Encoding: gzip&#xd;
+Date: Mon, 10 Jan 2022 12:09:05 GMT&#xd;
+Server: ESF&#xd;
+Cache-Control: private&#xd;
+X-XSS-Protection: 0&#xd;
+X-Frame-Options: SAMEORIGIN&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

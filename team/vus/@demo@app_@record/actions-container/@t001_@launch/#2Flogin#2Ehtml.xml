@@ -1,0 +1,89 @@
+<http-page executeResourcesDynamically="false" name="/login.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/adaf8252-51ce-4c45-a990-18c6eb060d1a.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="adaf8252-51ce-4c45-a990-18c6eb060d1a">
+    <embedded-action>b43d25b0-0149-453d-a283-a9886b19eeb4</embedded-action>
+    <embedded-action>90166fe8-8eb1-42c5-94ad-f30980962eee</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_adaf8252-51ce-4c45-a990-18c6eb060d1a.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;062ccfe1486f86d82c3c39c6367d6bcf&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 21 Jun 2021 11:04:44 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/login.html" path="/login.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/adaf8252-51ce-4c45-a990-18c6eb060d1a.zip"
+    recordedResponseCode="200" responseSize="3802"
+    serverUid="travel.testsigma.com" slaProfileEnabled="false"
+    uid="b43d25b0-0149-453d-a283-a9886b19eeb4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b43d25b0-0149-453d-a283-a9886b19eeb4.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b43d25b0-0149-453d-a283-a9886b19eeb4.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://travel.testsigma.com/login"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;96&quot;, &quot;Google Chrome&quot;;v=&quot;96&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html&#xd;
+content-length: 3802&#xd;
+last-modified: Mon, 21 Jun 2021 11:04:44 GMT&#xd;
+server: AmazonS3&#xd;
+date: Mon, 10 Jan 2022 04:15:18 GMT&#xd;
+etag: "062ccfe1486f86d82c3c39c6367d6bcf"&#xd;
+x-cache: Hit from cloudfront&#xd;
+via: 1.1 48e542cadf2952c7903de33c27e5c1f8.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: ATL51-C1&#xd;
+x-amz-cf-id: JQQcwcQ51qq4esWOtsHJ1mmaKaHR3DmUfrjOY3wwuthYQGLq8bj4hQ==&#xd;
+age: 28407</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    eTag="&quot;25c8929efcc65cb52140cd8497bb4850&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 21 Jun 2021 11:06:56 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/static/images/login.jpg"
+    path="/static/images/login.jpg" postType="2"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/adaf8252-51ce-4c45-a990-18c6eb060d1a.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="travel.testsigma.com" slaProfileEnabled="false"
+    uid="90166fe8-8eb1-42c5-94ad-f30980962eee" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_90166fe8-8eb1-42c5-94ad-f30980962eee</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_90166fe8-8eb1-42c5-94ad-f30980962eee.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://travel.testsigma.com/login"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;96&quot;, &quot;Google Chrome&quot;;v=&quot;96&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: image/jpeg&#xd;
+content-length: 76046&#xd;
+last-modified: Mon, 21 Jun 2021 11:06:56 GMT&#xd;
+server: AmazonS3&#xd;
+date: Mon, 10 Jan 2022 11:45:06 GMT&#xd;
+etag: "25c8929efcc65cb52140cd8497bb4850"&#xd;
+x-cache: Hit from cloudfront&#xd;
+via: 1.1 48e542cadf2952c7903de33c27e5c1f8.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: ATL51-C1&#xd;
+x-amz-cf-id: ooKfvuQDzJJ_jO58SfxADe23qFHWxvr6_grHge058p9ee_AQhnuniQ==&#xd;
+age: 14008</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

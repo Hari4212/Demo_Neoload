@@ -1,0 +1,53 @@
+<http-page executeResourcesDynamically="false"
+    name="/static/fonts/webrupee/WebRupee.V2.0.woff"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/b48bf877-9201-4e16-a205-c74905003427.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b48bf877-9201-4e16-a205-c74905003427">
+    <embedded-action>11c45b5e-5a51-4d10-a9a3-3f2fde9531f1</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f0e08384-01ae-4d55-86d6-5ab6388befa2.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;9ed2a18e21bc540698a4655ffb50aa62&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 21 Jun 2021 11:04:45 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/static/fonts/webrupee/WebRupee.V2.0.woff"
+    path="/static/fonts/webrupee/WebRupee.V2.0.woff" postType="2"
+    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/b48bf877-9201-4e16-a205-c74905003427.zip"
+    recordedResponseCode="404" responseSize="4445"
+    serverUid="travel.testsigma.com" slaProfileEnabled="false"
+    uid="11c45b5e-5a51-4d10-a9a3-3f2fde9531f1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e109f53b-7ebe-468f-b5b4-8345b128dc08.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e109f53b-7ebe-468f-b5b4-8345b128dc08.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://travel.testsigma.com/static/css/fil1.css"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;96&quot;, &quot;Google Chrome&quot;;v=&quot;96&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="origin" value="https://travel.testsigma.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 404&#xd;
+content-type: text/html&#xd;
+content-length: 4445&#xd;
+last-modified: Mon, 21 Jun 2021 11:04:45 GMT&#xd;
+etag: "9ed2a18e21bc540698a4655ffb50aa62"&#xd;
+x-amz-error-code: NoSuchKey&#xd;
+x-amz-error-message: The specified key does not exist.&#xd;
+x-amz-error-detail-key: static/fonts/webrupee/WebRupee.V2.0.woff&#xd;
+date: Mon, 10 Jan 2022 12:11:23 GMT&#xd;
+server: AmazonS3&#xd;
+x-cache: Error from cloudfront&#xd;
+via: 1.1 48e542cadf2952c7903de33c27e5c1f8.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: ATL51-C1&#xd;
+x-amz-cf-id: wWt0unV3LsCXht7uAz0bXLfX0H04Lzn-zIr3KmLzBVSk1AjP8yyG6Q==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
