@@ -1,0 +1,83 @@
+<http-page executeResourcesDynamically="false" name="/order/newOrder"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@jpet@store_@record_20230716/%resources%/recorded-artifacts/49a6a24a-3926-4bd0-bf4b-ade6d0d93ace.zip"
+    slaProfileEnabled="false" thinkTime="1055"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="49a6a24a-3926-4bd0-bf4b-ade6d0d93ace">
+    <embedded-action>9237ead9-5482-41e8-984d-2f13f65a0fe9</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_49a6a24a-3926-4bd0-bf4b-ade6d0d93ace.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/order/newOrder" path="/order/newOrder"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@jpet@store_@record_20230716/%resources%/recorded-artifacts/49a6a24a-3926-4bd0-bf4b-ade6d0d93ace.zip"
+    recordedResponseCode="200" responseSize="21933"
+    serverUid="jpetstore.aspectran.com" slaProfileEnabled="false"
+    uid="9237ead9-5482-41e8-984d-2f13f65a0fe9" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[cGF5bWVudEZvcm09dHJ1ZSZiaWxsaW5nRm9ybT10cnVlJmNhcmRUeXBlPVZpc2EmY3JlZGl0Q2FyZD05OTk5OTk5OTk5OTk5OTkmZXhwaXJ5RGF0ZT0xMiUyRjIwMTkmYmlsbFRvRmlyc3ROYW1lPXN1bmlsJmJpbGxUb0xhc3ROYW1lPXNoYXJtYSZiaWxsQWRkcmVzczE9OTAxK1NhbitBbnRvbmlvK1JvYWQmYmlsbEFkZHJlc3MyPU1TK1VDVVAwMi0yMDYmYmlsbENpdHk9UGFsbytBbHRvJmJpbGxTdGF0ZT1DQSZiaWxsWmlwPTk0MzAzJmJpbGxDb3VudHJ5PVVTQQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_9237ead9-5482-41e8-984d-2f13f65a0fe9.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9237ead9-5482-41e8-984d-2f13f65a0fe9.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="paymentForm"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="billingForm"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cardType"
+        recordRawValue="Visa" separator="=" value="Visa" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="creditCard"
+        recordRawValue="999999999999999" separator="="
+        value="999999999999999" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="expiryDate"
+        recordRawValue="12%2F2019" separator="=" value="12/2019" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="billToFirstName" recordRawValue="sunil" separator="="
+        value="sunil" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="billToLastName" recordRawValue="sharma" separator="="
+        value="sharma" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="billAddress1"
+        recordRawValue="901+San+Antonio+Road" separator="="
+        value="901 San Antonio Road" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="billAddress2"
+        recordRawValue="MS+UCUP02-206" separator="="
+        value="MS UCUP02-206" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="billCity"
+        recordRawValue="Palo+Alto" separator="=" value="Palo Alto" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="billState"
+        recordRawValue="CA" separator="=" value="CA" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="billZip"
+        recordRawValue="94303" separator="=" value="94303" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="billCountry"
+        recordRawValue="USA" separator="=" value="USA" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://jpetstore.aspectran.com/order/newOrderForm"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_ga=GA1.1.2034205212.1689496241; JSESSIONID=1oumue3ydzgg6pbiels80swgb76900.n0; __cf_bm=v7fgHM1_5ldQJOsCWFwLGgMFxC.23kESFmJ6v8SUb14-1689502128-0-AUmkVmKwI1y8OvR2+oJ0F19P3a0kiVPtgAuSl4DpLP9tAqPMkPgOp5UtJsRRvMupZQ==; _ga_PBGW9BF7P6=GS1.1.1689502127.2.1.1689502517.0.0.0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://jpetstore.aspectran.com"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not.A/Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;114&quot;, &quot;Google Chrome&quot;;v=&quot;114&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Sun, 16 Jul 2023 10:15:25 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+cf-cache-status: DYNAMIC&#xd;
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=w3t9flSFLyDNPZiUptc5ABa4QKhlzD%2FprYMGPCb8Y7YWbh8iWW21LpJ%2BAcTf0gvlnCB85q9QhomSMtx6Bob3zNQk4skLmKKSpoPMJHjjGcshaCCL2qhpy%2F7zbZxMz3tQelKR9H7ck5KoVg%3D%3D"}],"group":"cf-nel","max_age":604800}&#xd;
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}&#xd;
+server: cloudflare&#xd;
+cf-ray: 7e797bddb8aa468b-SIN&#xd;
+content-encoding: br&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

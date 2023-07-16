@@ -1,4 +1,0 @@
-<variable-file delimiters="," filename="variables/Auth.csv" name="Pwd_Folder" offset="1" order="3" policy="5" range="1" uid="a9ef3b70-916f-466d-a42d-f501dc2b069f" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
-<column name="id" number="0"/>
-<column name="pwd" number="1"/>
-</variable-file>

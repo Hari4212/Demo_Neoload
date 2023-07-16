@@ -1,0 +1,62 @@
+<http-page executeResourcesDynamically="false" name="SelectProduct"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@jpet@store_enhancement_20230716_v3/%resources%/recorded-artifacts/5a964339-6d9e-4be1-abd7-b5597f310dee.zip"
+    slaProfileEnabled="false" thinkTime="15778"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5a964339-6d9e-4be1-abd7-b5597f310dee">
+    <embedded-action>417fb77f-9f04-4613-890f-bdd1ef0b83c7</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_66a5a447-9dbe-4cde-8634-dd147babb438.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/catalog/products/K9-PO-02"
+    path="/catalog/products/${dp_selectedProduct_MultipleItems}"
+    postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/@jpet@store_enhancement_20230716_v3/%resources%/recorded-artifacts/5a964339-6d9e-4be1-abd7-b5597f310dee.zip"
+    recordedResponseCode="200" responseSize="20557"
+    serverUid="jpetstore.aspectran.com" slaProfileEnabled="false"
+    uid="417fb77f-9f04-4613-890f-bdd1ef0b83c7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_68a9c5c4-b7ad-4012-8a61-b0373f321292.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_68a9c5c4-b7ad-4012-8a61-b0373f321292.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;>" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="0" matchNumberAdv="1"
+        matchNumberSimple="0" name="dp_selectItem_MultipleItems"
+        refererUid="417fb77f-9f04-4613-890f-bdd1ef0b83c7"
+        regExp="a href=&quot;/catalog/items/(.*?)&quot;>" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="a href=&quot;/catalog/items/" template="$1$"
+        templateAdv="$1$" uid="c343981b-78e7-4b20-b888-1d1232f18a12" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://jpetstore.aspectran.com/catalog/categories/${dp_selectedPet}"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_ga=GA1.1.2034205212.1689496241; JSESSIONID=1oumue3ydzgg6pbiels80swgb76900.n0; __cf_bm=v7fgHM1_5ldQJOsCWFwLGgMFxC.23kESFmJ6v8SUb14-1689502128-0-AUmkVmKwI1y8OvR2+oJ0F19P3a0kiVPtgAuSl4DpLP9tAqPMkPgOp5UtJsRRvMupZQ==; _ga_PBGW9BF7P6=GS1.1.1689502127.2.1.1689502280.0.0.0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not.A/Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;114&quot;, &quot;Google Chrome&quot;;v=&quot;114&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Sun, 16 Jul 2023 10:11:37 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+cf-cache-status: DYNAMIC&#xd;
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5oSqs46vcRknUPJpWX6%2BEk6gSB1yLDfQJV8HWGUZUzch8o4Oim3vwjiPIjHdfJjZwjH1XvagSYnHPLLGQjaQ6foBsb%2FAyfHcr4HMRdZziNuSJwhB95%2BqNflXNG58hnrMQPzWdEs8CAb7aw%3D%3D"}],"group":"cf-nel","max_age":604800}&#xd;
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}&#xd;
+server: cloudflare&#xd;
+cf-ray: 7e79764c5b6c4a08-SIN&#xd;
+content-encoding: br&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

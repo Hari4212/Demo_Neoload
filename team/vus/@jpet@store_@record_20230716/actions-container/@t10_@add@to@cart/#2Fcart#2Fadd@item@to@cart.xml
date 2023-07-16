@@ -1,0 +1,91 @@
+<http-page executeResourcesDynamically="false"
+    name="/cart/addItemToCart" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@jpet@store_@record_20230716/%resources%/recorded-artifacts/647b338b-ee82-4343-b690-da334d60626c.zip"
+    slaProfileEnabled="false" thinkTime="7702"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="647b338b-ee82-4343-b690-da334d60626c">
+    <embedded-action>e71e8f28-cf7c-484a-a743-fa3803441770</embedded-action>
+    <embedded-action>7f27ae2d-53a8-490c-91b5-54937614f255</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_647b338b-ee82-4343-b690-da334d60626c.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/cart/addItemToCart" path="/cart/addItemToCart"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@jpet@store_@record_20230716/%resources%/recorded-artifacts/647b338b-ee82-4343-b690-da334d60626c.zip"
+    recordedResponseCode="302"
+    refererUid="db3c6ef1-bd9f-453c-ab7f-0e6fe721de5b" responseSize="0"
+    serverUid="jpetstore.aspectran.com" slaProfileEnabled="false"
+    uid="e71e8f28-cf7c-484a-a743-fa3803441770" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_e71e8f28-cf7c-484a-a743-fa3803441770.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="itemId"
+        recordRawValue="EST-4" separator="=" value="EST-4" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://jpetstore.aspectran.com/catalog/products/FI-FW-01"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_ga=GA1.1.2034205212.1689496241; JSESSIONID=1oumue3ydzgg6pbiels80swgb76900.n0; __cf_bm=v7fgHM1_5ldQJOsCWFwLGgMFxC.23kESFmJ6v8SUb14-1689502128-0-AUmkVmKwI1y8OvR2+oJ0F19P3a0kiVPtgAuSl4DpLP9tAqPMkPgOp5UtJsRRvMupZQ==; _ga_PBGW9BF7P6=GS1.1.1689502127.2.1.1689502478.0.0.0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not.A/Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;114&quot;, &quot;Google Chrome&quot;;v=&quot;114&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Sun, 16 Jul 2023 10:14:51 GMT&#xd;
+Content-Length: 0&#xd;
+location: https://jpetstore.aspectran.com/cart/viewCart&#xd;
+cf-cache-status: DYNAMIC&#xd;
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hyxvgaZnb2f7J%2BFW7xFlQ73HrgNkY%2BdsVD02iGMxGeVP9CZgGrW2zA6zpQ%2Bhq4XaOlvTJOlLsSeMmPuXOLqRS%2F6%2B%2BduUsRcQJ04sF93lSTKEXcoAJY19mp4kdRoACX9wVfGrkL07mJK5Aw%3D%3D"}],"group":"cf-nel","max_age":604800}&#xd;
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}&#xd;
+server: cloudflare&#xd;
+cf-ray: 7e797b083bd4468b-SIN&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorContent="Add to Cart"
+        extractorOccurence="27" extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="2" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/cart/viewCart" path="/cart/viewCart"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@jpet@store_@record_20230716/%resources%/recorded-artifacts/647b338b-ee82-4343-b690-da334d60626c.zip"
+    recordedResponseCode="200"
+    refererUid="e71e8f28-cf7c-484a-a743-fa3803441770"
+    responseSize="22533" serverUid="jpetstore.aspectran.com"
+    slaProfileEnabled="false" uid="7f27ae2d-53a8-490c-91b5-54937614f255" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7f27ae2d-53a8-490c-91b5-54937614f255.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7f27ae2d-53a8-490c-91b5-54937614f255.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://jpetstore.aspectran.com/catalog/products/FI-FW-01"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_ga=GA1.1.2034205212.1689496241; JSESSIONID=1oumue3ydzgg6pbiels80swgb76900.n0; __cf_bm=v7fgHM1_5ldQJOsCWFwLGgMFxC.23kESFmJ6v8SUb14-1689502128-0-AUmkVmKwI1y8OvR2+oJ0F19P3a0kiVPtgAuSl4DpLP9tAqPMkPgOp5UtJsRRvMupZQ==; _ga_PBGW9BF7P6=GS1.1.1689502127.2.1.1689502478.0.0.0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not.A/Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;114&quot;, &quot;Google Chrome&quot;;v=&quot;114&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Sun, 16 Jul 2023 10:14:51 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+cf-cache-status: DYNAMIC&#xd;
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=efc4cGpha5H%2FmJypi1wkuGQnrR18NsoVd4mtZwhjj%2BsoeQMWyyeS97xqHf08msUTygAlnL5iN20LPev5%2Bq8%2FzPWmi9I7bR0H%2FxbCVSfCGRKcC5ZrWo0L3n1FhEVa2j60SR1NjazkckfYsw%3D%3D"}],"group":"cf-nel","max_age":604800}&#xd;
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}&#xd;
+server: cloudflare&#xd;
+cf-ray: 7e797b096cdf468b-SIN&#xd;
+content-encoding: br&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

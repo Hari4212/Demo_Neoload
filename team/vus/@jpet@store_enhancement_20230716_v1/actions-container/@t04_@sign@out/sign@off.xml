@@ -1,0 +1,87 @@
+<http-page executeResourcesDynamically="false" name="signOff"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@jpet@store_enhancement_20230716_v1/%resources%/recorded-artifacts/e6b9dc90-f480-437e-857b-4eaf75e312b1.zip"
+    slaProfileEnabled="false" thinkTime="5905"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e6b9dc90-f480-437e-857b-4eaf75e312b1">
+    <embedded-action>9a3ab756-050e-4149-ba85-d4cfbc62d063</embedded-action>
+    <embedded-action>2857e526-2e95-4337-aa26-bf90f1b665e7</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9bed9a89-332d-4b9c-9e0a-987ad44dc47f.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/account/signoff" path="/account/signoff"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@jpet@store_enhancement_20230716_v1/%resources%/recorded-artifacts/e6b9dc90-f480-437e-857b-4eaf75e312b1.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="jpetstore.aspectran.com" slaProfileEnabled="false"
+    uid="9a3ab756-050e-4149-ba85-d4cfbc62d063" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_8c8915cf-1ad8-406d-ae2e-1961f99d64fc.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://jpetstore.aspectran.com/order/viewOrder?orderId=17872&amp;submitted=true"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_ga=GA1.1.2034205212.1689496241; __cf_bm=5guPdbt7FvFDMOliwj4nmA.HKXf6nvaFxuddOvCj9pI-1689504916-0-AWi8NDKFKJYRyXjaij92CUSI/+SsdejX95h80eMQWZ/2XtapfJGWuVSINcpgqkRTKg==; JSESSIONID=u3ledg82eu4k1puehc0ooo0iq76950.n0; _ga_PBGW9BF7P6=GS1.1.1689504916.3.1.1689505035.0.0.0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not.A/Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;114&quot;, &quot;Google Chrome&quot;;v=&quot;114&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Sun, 16 Jul 2023 10:57:22 GMT&#xd;
+Content-Length: 0&#xd;
+location: https://jpetstore.aspectran.com/catalog/&#xd;
+cf-cache-status: DYNAMIC&#xd;
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5l6jpeLXNe69AAodfRWWLHgBlQg20cSfM4WmgLHOWI54xalKC%2FzbQExP1e71rY2G923leIjj5Q9j8iElOBe0kiP9gDyy4Q2RQTbaOwlUrOM%2F4Dr4vvd8NZqBRgja5LWGnqtHu3fbwsVZvQ%3D%3D"}],"group":"cf-nel","max_age":604800}&#xd;
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}&#xd;
+server: cloudflare&#xd;
+cf-ray: 7e79b94f7cb49f86-SIN&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/catalog/" path="/catalog/" postType="6"
+    recordedArtifactZipFileName="team/vus/@jpet@store_enhancement_20230716_v1/%resources%/recorded-artifacts/e6b9dc90-f480-437e-857b-4eaf75e312b1.zip"
+    recordedResponseCode="200"
+    refererUid="9a3ab756-050e-4149-ba85-d4cfbc62d063"
+    responseSize="21364" serverUid="jpetstore.aspectran.com"
+    slaProfileEnabled="false" uid="2857e526-2e95-4337-aa26-bf90f1b665e7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9794c622-4607-45c0-b811-3503d9ecc12c.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9794c622-4607-45c0-b811-3503d9ecc12c.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://jpetstore.aspectran.com/order/viewOrder?orderId=17872&amp;submitted=true"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_ga=GA1.1.2034205212.1689496241; __cf_bm=5guPdbt7FvFDMOliwj4nmA.HKXf6nvaFxuddOvCj9pI-1689504916-0-AWi8NDKFKJYRyXjaij92CUSI/+SsdejX95h80eMQWZ/2XtapfJGWuVSINcpgqkRTKg==; JSESSIONID=u3ledg82eu4k1puehc0ooo0iq76950.n0; _ga_PBGW9BF7P6=GS1.1.1689504916.3.1.1689505035.0.0.0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not.A/Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;114&quot;, &quot;Google Chrome&quot;;v=&quot;114&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Sun, 16 Jul 2023 10:57:22 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+set-cookie: JSESSIONID=1su9scpffjmp31fwzzklb9n6cw76951.n0; path=/&#xd;
+cf-cache-status: DYNAMIC&#xd;
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UUtylmxWr5WlICBuDjl5DgHWoDKaycN2VzFei5dPZ4jpYaSJl5Cnw81IlacDnnQRoVcRxAnmqwa8%2BwWfaOrMbvarGeni6rWNEZ1kxeDPBbb%2FHJjajMSeNd3%2FRvpO5onXUscXFpQcXQudKw%3D%3D"}],"group":"cf-nel","max_age":604800}&#xd;
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}&#xd;
+server: cloudflare&#xd;
+cf-ray: 7e79b951cf2a9f86-SIN&#xd;
+content-encoding: br&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

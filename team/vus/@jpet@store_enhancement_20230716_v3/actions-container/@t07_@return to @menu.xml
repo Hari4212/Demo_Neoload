@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="T07_Return to Menu" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="a3cf3976-c1cf-4223-a957-cc60ca2ea204" weightsEnabled="false">
+    <weighted-embedded-action uid="67db7eef-969f-4f98-aa9a-0d45058556fa"/>
+</basic-logical-action-container>

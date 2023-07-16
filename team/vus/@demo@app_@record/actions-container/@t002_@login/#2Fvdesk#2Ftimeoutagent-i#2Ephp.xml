@@ -1,8 +1,0 @@
-<http-page enabled="false" executeResourcesDynamically="false"
-    name="/vdesk/timeoutagent-i.php" playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@demo@app_@record/%resources%/recorded-artifacts/1382ad89-1692-4ec4-b8a7-a33223c9a13b.zip"
-    slaProfileEnabled="false" thinkTime="0"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="1382ad89-1692-4ec4-b8a7-a33223c9a13b">
-    <screenshotFileDescription>recorded-screenshots/sc_1382ad89-1692-4ec4-b8a7-a33223c9a13b.jpg</screenshotFileDescription>
-</http-page>

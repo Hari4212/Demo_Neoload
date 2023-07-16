@@ -1,0 +1,14 @@
+<variable-list name="Customer_Info" offset="1" order="1" policy="5" range="1" uid="1a59e8df-acbe-4b01-bcfe-56f0a6d8a1dc" whenOutOfValues="CYCLE_VALUES">
+<column name="Address1" number="5"/>
+<column name="Address2" number="6"/>
+<column name="CC_Num" number="1"/>
+<column name="City" number="7"/>
+<column name="Country" number="10"/>
+<column name="ExpiryDate" number="2"/>
+<column name="FirstName" number="3"/>
+<column name="LastName" number="4"/>
+<column name="State" number="8"/>
+<column name="Zip" number="9"/>
+<column name="cadType" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAABdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAC3QACk1hc3RlckNhcmR0ABM5OTkgOTk5IDk5OSA5OTAgOTk5dAAHMTIvMjAyM3QABEpvaG50AAVTbWl0aHQADzEyMyBNYWluIHN0cmVldHQADU1TIFVDVVAwMi0yMDZ0AAtTYW50YSBDbGFyYXQAAkNBdAAFOTQzMDN0AANVU0E=]]></values>
+</variable-list>

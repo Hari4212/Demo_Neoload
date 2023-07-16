@@ -1,0 +1,48 @@
+<http-page executeResourcesDynamically="false" name="signonForm"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@jpet@store_enhancement_20230716_v1/%resources%/recorded-artifacts/1cf13c65-23d7-436a-bc66-ea6628e8111e.zip"
+    slaProfileEnabled="false" thinkTime="5344"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="1cf13c65-23d7-436a-bc66-ea6628e8111e">
+    <embedded-action>74d02bba-358d-4ee5-9ebc-bdd84821c294</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_69a2660c-a342-401a-b84d-92e856936615.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/account/signonForm" path="/account/signonForm"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@jpet@store_enhancement_20230716_v1/%resources%/recorded-artifacts/1cf13c65-23d7-436a-bc66-ea6628e8111e.zip"
+    recordedResponseCode="200" responseSize="20502"
+    serverUid="jpetstore.aspectran.com" slaProfileEnabled="false"
+    uid="74d02bba-358d-4ee5-9ebc-bdd84821c294" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3735f0cb-bfd1-47d7-955b-c316188bcdfc.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3735f0cb-bfd1-47d7-955b-c316188bcdfc.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://jpetstore.aspectran.com/catalog/"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_ga=GA1.1.2034205212.1689496241; __cf_bm=5guPdbt7FvFDMOliwj4nmA.HKXf6nvaFxuddOvCj9pI-1689504916-0-AWi8NDKFKJYRyXjaij92CUSI/+SsdejX95h80eMQWZ/2XtapfJGWuVSINcpgqkRTKg==; JSESSIONID=u3ledg82eu4k1puehc0ooo0iq76950.n0; _ga_PBGW9BF7P6=GS1.1.1689504916.3.1.1689504979.0.0.0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not.A/Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;114&quot;, &quot;Google Chrome&quot;;v=&quot;114&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Sun, 16 Jul 2023 10:56:24 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+cf-cache-status: DYNAMIC&#xd;
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=p0PWur63T4jOoSfHBinkxQ85kwjTC1BwLsm6lHAJ9wGe0xqFq0OdKTA0vQurmfwtFVqVdM2XVRrGxg%2FaYIcPmqadT7mwM2xzLLjNktVeNsg3xCaUE9MYxhlx7ypEwOLUWBTK80GGvGJaUw%3D%3D"}],"group":"cf-nel","max_age":604800}&#xd;
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}&#xd;
+server: cloudflare&#xd;
+cf-ray: 7e79b7e8ddd49f86-SIN&#xd;
+content-encoding: br&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="T04_Select Pet" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="00a34fac-331d-4c0f-955c-9b78997bc4b7" weightsEnabled="false">
+    <weighted-embedded-action uid="09ee7354-7775-4414-9e5c-0c564c4d0577"/>
+</basic-logical-action-container>

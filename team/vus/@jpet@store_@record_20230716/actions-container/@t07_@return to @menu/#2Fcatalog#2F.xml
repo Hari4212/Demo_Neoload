@@ -1,0 +1,47 @@
+<http-page executeResourcesDynamically="false" name="/catalog/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@jpet@store_@record_20230716/%resources%/recorded-artifacts/20100d11-d96a-4c92-8e80-11bf55eabe81.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="20100d11-d96a-4c92-8e80-11bf55eabe81">
+    <embedded-action>dd77309c-adb7-4468-bc8b-b59d089cec1a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_20100d11-d96a-4c92-8e80-11bf55eabe81.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/catalog/" path="/catalog/" postType="6"
+    recordedArtifactZipFileName="team/vus/@jpet@store_@record_20230716/%resources%/recorded-artifacts/20100d11-d96a-4c92-8e80-11bf55eabe81.zip"
+    recordedResponseCode="200" responseSize="22129"
+    serverUid="jpetstore.aspectran.com" slaProfileEnabled="false"
+    uid="dd77309c-adb7-4468-bc8b-b59d089cec1a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_dd77309c-adb7-4468-bc8b-b59d089cec1a.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_dd77309c-adb7-4468-bc8b-b59d089cec1a.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://jpetstore.aspectran.com/cart/viewCart"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_ga=GA1.1.2034205212.1689496241; JSESSIONID=1oumue3ydzgg6pbiels80swgb76900.n0; __cf_bm=v7fgHM1_5ldQJOsCWFwLGgMFxC.23kESFmJ6v8SUb14-1689502128-0-AUmkVmKwI1y8OvR2+oJ0F19P3a0kiVPtgAuSl4DpLP9tAqPMkPgOp5UtJsRRvMupZQ==; _ga_PBGW9BF7P6=GS1.1.1689502127.2.1.1689502311.0.0.0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not.A/Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;114&quot;, &quot;Google Chrome&quot;;v=&quot;114&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Sun, 16 Jul 2023 10:13:51 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+cf-cache-status: DYNAMIC&#xd;
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6B%2BFGOJX7MO1AlXe%2Fc%2Fq3vY8iOUH%2BFhBJZVhM%2FQAIZY5mo5qROQkcFC5%2FAoktLNmadhFj6SZSoJfmN6i4on4BT8cZlLBZzxx%2BFpmRRjar8YMuZ7qSRrXKlc53EvAQAkdFVH7ffCaT2%2B0cQ%3D%3D"}],"group":"cf-nel","max_age":604800}&#xd;
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}&#xd;
+server: cloudflare&#xd;
+cf-ray: 7e797992afdf468b-SIN&#xd;
+content-encoding: br&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
